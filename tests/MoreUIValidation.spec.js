@@ -34,5 +34,13 @@ test("More UI Validations", async({page})=>
 
     console.log(textcheck.split(" ")[1]);
 
+    console.log("More Git push / pull checks");
+
+})
+
+test("Git Demo", async({page})=>{
+
+
+    console.log("Trying out Git / GitHub");
 })
 
