@@ -22,7 +22,7 @@ test('@Web Special Locators', async ({browser})=>
 
     await page.locator("app-card").filter({hasText: 'Nokia Edge'}).getByRole("button", {name: 'Add'}).click();
 
-
+    console.log("Testing Git push & pull on a different file");
 }
 
 )

@@ -36,6 +36,8 @@ test("More UI Validations", async({page})=>
 
     console.log("More Git push / pull checks");
 
+    console.log("More Git push & pull trial");
+
 })
 
 test("Git Demo", async({page})=>{
